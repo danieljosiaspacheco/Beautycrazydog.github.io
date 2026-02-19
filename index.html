@@ -3,93 +3,77 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Beauty The Crazy Dog</title>
-
+<title>BEAUTY</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 <style>
 body {
-  margin:0;
-  font-family:Arial, sans-serif;
-  background:#0a0a0a;
-  overflow:hidden;
-  color:white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: white;
+    text-align: center;
 }
-
-.dex-runner {
-  position:fixed;
-  width:100%;
-  top:20px;
-  display:flex;
-  gap:60px;
-  animation: runDex 12s linear infinite;
+.container {
+    padding: 80px 25px;
+    max-width: 900px;
+    margin: auto;
 }
-
-.dex-runner img {
-  height:60px;
-}
-
-@keyframes runDex {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
-}
-
-.hero {
-  text-align:center;
-  padding-top:120px;
-}
-
-.hero img {
-  width:280px;
-  border-radius:20px;
-  box-shadow:0 0 40px #00ffcc;
-}
-
 h1 {
-  font-size:3em;
-  background: linear-gradient(90deg,#00ffcc,#ff00ff);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+    font-size: 64px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
 }
-
-button {
-  margin:20px;
-  padding:15px 30px;
-  font-size:18px;
-  border:none;
-  border-radius:10px;
-  background:linear-gradient(90deg,#00ffcc,#ff00ff);
-  color:white;
-  cursor:pointer;
-  transition:0.3s;
+.subtitle {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-bottom: 60px;
 }
-
-button:hover {
-  transform:scale(1.1);
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 40px rgba(255,255,255,0.05);
+    margin-bottom: 40px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.links img {
+    width: 40px;
+    transition: 0.3s;
+}
+.links img:hover {
+    transform: scale(1.2);
+}
+.footer {
+    margin-top: 80px;
+    opacity: 0.5;
+    font-size: 14px;
 }
 </style>
 </head>
-
 <body>
+<div class="container">
+<h1>BEAUTY</h1>
+<p class="subtitle">The mission of this token is to show that even a memecoin can be scarcer than fiat currencies!</p>
 
-<div class="dex-runner">
-  <img src="https://cryptologos.cc/logos/raydium-ray-logo.png" />
-  <img src="https://cryptologos.cc/logos/jupiter-jup-logo.png" />
-  <img src="https://cryptologos.cc/logos/raydium-ray-logo.png" />
-  <img src="https://cryptologos.cc/logos/jupiter-jup-logo.png" />
+<div class="card">
+<p>Welcome to the BEAUTY ecosystem.</p>
 </div>
 
-<div class="hero">
-  <img src="logo.png">
-  <h1>Beauty The Crazy Dog</h1>
-  <p>Even a memecoin can be scarcer than fiat.</p>
-
-  <button onclick="window.open('https://raydium.io')">Buy on Raydium</button>
-  <button onclick="window.open('https://jup.ag')">Buy on Jupiter</button>
-
-  <p>Supply: 2,000,000,000</p>
-  <p>Contract: GTXhHR7tDPA1tT4d4v45MTyhhYZUQycHK2t92C8Fpump</p>
-
-  <button onclick="window.open('https://x.com/Beutycrazydog')">Follow on X</button>
+<div class="links">
+<a href="https://x.com/Beutycrazydog" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X">
+</a>
 </div>
 
+<div class="footer">
+© 2026 BEAUTY
+</div>
+</div>
 </body>
 </html>
