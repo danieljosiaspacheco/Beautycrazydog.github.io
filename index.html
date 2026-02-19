@@ -118,11 +118,11 @@ h1 {
 
 <h1>Beuty The Crazy Dog</h1>
 
+<img src="logo.png" class="logo">
+
 <div class="subtitle">
 The mission of this token is to show that even a memecoin can be scarcer than fiat currencies!
 </div>
-
-<img src="logo.png" class="logo">
 
 <div class="dex-runner">
   <div class="dex-track">
@@ -147,6 +147,7 @@ The mission of this token is to show that even a memecoin can be scarcer than fi
 <div class="info">
 <p style="color:white; font-size:1.3rem;">Supply: 2,000,000,000</p>
 <p class="ca" style="color:white;">CA: GTXhHR7tDPA1tT4d4v45MTyhhYZUQycHK2t92C8Fpump</p>
+<button onclick="copyCA()" style="margin-top:10px;padding:8px 16px;border:none;border-radius:8px;background:#00ffd0;color:#000;cursor:pointer;">Copy CA</button>
 </div>
 
 <div class="social-title">Social Media</div>
@@ -157,5 +158,11 @@ The mission of this token is to show that even a memecoin can be scarcer than fi
 
 </div>
 
+<script>
+function copyCA() {
+  navigator.clipboard.writeText("GTXhHR7tDPA1tT4d4v45MTyhhYZUQycHK2t92C8Fpump");
+  alert("Contract copied!");
+}
+</script>
 </body>
 </html>
