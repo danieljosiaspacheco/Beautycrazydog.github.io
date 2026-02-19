@@ -3,77 +3,122 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BEAUTY</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<title>BEAUTY Token</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 <style>
 body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #0f172a, #020617);
-    color: white;
-    text-align: center;
+    margin:0;
+    font-family:'Orbitron', sans-serif;
+    background: linear-gradient(135deg,#050505,#0a0a0a);
+    color:white;
+    overflow-x:hidden;
 }
-.container {
-    padding: 80px 25px;
-    max-width: 900px;
-    margin: auto;
+
+section {
+    padding:120px 20px;
+    text-align:center;
 }
+
 h1 {
-    font-size: 64px;
-    letter-spacing: 8px;
-    margin-bottom: 20px;
+    font-size:64px;
+    margin-bottom:30px;
 }
+
 .subtitle {
-    font-size: 18px;
-    opacity: 0.8;
-    margin-bottom: 60px;
+    font-size:20px;
+    max-width:700px;
+    margin:40px auto;
+    opacity:0.8;
+    line-height:1.6;
 }
-.card {
-    background: rgba(255,255,255,0.05);
-    padding: 40px;
-    border-radius: 20px;
-    backdrop-filter: blur(12px);
-    box-shadow: 0 0 40px rgba(255,255,255,0.05);
-    margin-bottom: 40px;
+
+.logo {
+    width:220px;
+    margin:60px auto;
+    display:block;
+    border-radius:20px;
 }
-.links {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
+
+.token-info {
+    margin-top:60px;
+    font-size:18px;
+    line-height:2;
 }
-.links img {
-    width: 40px;
-    transition: 0.3s;
+
+.contract {
+    margin-top:20px;
+    word-break:break-all;
+    font-size:16px;
+    opacity:0.8;
 }
-.links img:hover {
-    transform: scale(1.2);
+
+.buy-buttons {
+    margin-top:80px;
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    flex-wrap:wrap;
 }
-.footer {
-    margin-top: 80px;
-    opacity: 0.5;
-    font-size: 14px;
+
+.buy-buttons img {
+    width:140px;
+    transition:0.4s;
 }
+
+.buy-buttons img:hover {
+    transform:scale(1.2);
+}
+
+.x-link {
+    margin-top:120px;
+}
+
+.x-link img {
+    width:70px;
+    transition:0.4s;
+}
+
+.x-link img:hover {
+    transform:scale(1.3);
+}
+
 </style>
 </head>
 <body>
-<div class="container">
-<h1>BEAUTY</h1>
-<p class="subtitle">The mission of this token is to show that even a memecoin can be scarcer than fiat currencies!</p>
 
-<div class="card">
-<p>Welcome to the BEAUTY ecosystem.</p>
+<section>
+<h1>BEAUTY</h1>
+
+<div class="subtitle">
+The mission of this token is to show that even a memecoin can be scarcer than fiat currencies!
 </div>
 
-<div class="links">
-<a href="https://x.com/Beutycrazydog" target="_blank">
-<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X">
+<img src="logo.png" class="logo">
+
+<div class="token-info">
+Supply: 2,000,000,000
+<div class="contract">
+Contract: GTXhHR7tDPA1tT4d4v45MTyhhYZUQycHK2t92C8Fpump
+</div>
+</div>
+
+<div class="buy-buttons">
+<a href="https://raydium.io" target="_blank">
+<img src="https://cryptologos.cc/logos/raydium-ray-logo.png" alt="Raydium">
+</a>
+
+<a href="https://jup.ag" target="_blank">
+<img src="https://cryptologos.cc/logos/jupiter-jup-logo.png" alt="Jupiter">
 </a>
 </div>
 
-<div class="footer">
-© 2026 BEAUTY
+<div class="x-link">
+<a href="https://x.com/Beutycrazydog" target="_blank">
+<img src="https://abs.twimg.com/favicons/twitter.3.ico" alt="X">
+</a>
 </div>
-</div>
+
+</section>
+
 </body>
 </html>
