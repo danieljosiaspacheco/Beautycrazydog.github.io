@@ -16,6 +16,11 @@ body {
 
 .container {
     padding: 140px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 h1 {
@@ -67,16 +72,26 @@ h1 {
 }
 
 .info {
-    margin: 160px auto;
-    line-height: 3;
-    font-size: 1.3rem;
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
-    padding: 60px;
+    margin: 80px auto;
+    line-height: 2.2;
+    max-width: 420px;
+    background: rgba(255,255,255,0.03);
+    padding: 30px;
     border-radius: 20px;
-    max-width: 600px;
-    backdrop-filter: blur(12px);
-    box-shadow: 0 0 40px rgba(0,255,200,0.15);
+    word-break: break-all;
+    text-align: center;
+}
+
+.ca {
+    font-size: 0.9rem;
+    opacity: 0.95;
+}
+
+.social-title {
+    margin-top: 80px;
+    font-size: 1.4rem;
+    color: white;
+    letter-spacing: 1px;
 }
 
 .info p {
@@ -129,10 +144,12 @@ The mission of this token is to show that even a memecoin can be scarcer than fi
 </div>
 </div>
 
-<div class="info" style="color:#ffffff;">
-<p>Supply: 2,000,000,000</p>
-<p>CA: GTXhHR7tDPA1tT4d4v45MTyhhYZUQycHK2t92C8Fpump</p>
+<div class="info">
+<p style="color:white; font-size:1.3rem;">Supply: 2,000,000,000</p>
+<p class="ca" style="color:white;">CA: GTXhHR7tDPA1tT4d4v45MTyhhYZUQycHK2t92C8Fpump</p>
 </div>
+
+<div class="social-title">Social Media</div>
 
 <a class="x-link" href="https://x.com/Beutycrazydog" target="_blank">
 <img src="x.jpg">
